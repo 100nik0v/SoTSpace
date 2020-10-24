@@ -1,0 +1,139 @@
+            body {
+                  margin: 0;
+                font-family: 'Titillium Web', Arial;
+                background-color: #D7E7F1;
+                color: black;
+            }
+            h1 {
+                padding-top: 20;
+                font-size: 60;
+                text-align: center;
+            }
+            table {
+                width: 100%;
+                text-align: center;
+            }
+            .header {
+                padding-top: 150;
+                width: 100%;
+            }
+            p {
+                font-size: 20;
+            }
+            .sticky {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            }  
+            .links {
+                height: 100px;
+            width: 100%;
+            padding-top: 0;
+            background-image: url("ind/links1.jpg");
+          /*  background: #555;
+            color: #f1f1f1; */
+            }
+            .content {
+            padding: 16px;
+            }
+            .sticky + .content {
+            padding-top: 102px;
+            }
+            .spOffer {
+            border:solid;
+            }   
+            .h21{
+            padding-bottom: 100px;
+            }
+.h211{
+    padding-bottom: 50px;
+}
+            .title {
+            text-align: left;
+            }
+            .headerButton {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+            .button1 {
+                background-color: #4CAF50;
+            }
+            .theOffers {
+            font-size: 25;    
+            }
+            #rcorners1 {
+            background: #cce9ff;
+            padding: 20px; 
+            width: 200px;
+            height: 150px; 
+            }
+            #charitycolors {
+            background: #d9ffd4;
+            }
+            button {
+            background: #c8bcd4;
+            font-size: 30;
+            padding: 20px;
+            font-family: 'Titillium Web', Arial;
+                border-width: 0;
+            }
+            #specialButton {
+            padding:5px;
+            font-size: 15px;
+            background: #D7E7F1;
+            }
+            #selectedButton{
+            background: yellow;
+            font-size: 15px;
+            padding: 10px;
+            }
+            h2{
+            font-size: 30px;
+            }   
+            #specialButton2 {
+            padding:5px;
+            font-size: 15px;
+            background: #c8bcd4;
+            }
+            #indexButton{
+            padding:5px;
+            font-size: 15px;
+            background: #c8bcd4;
+                border-width: 0;
+            }
+            .smallFont{
+    font-size: 15px;
+}
+            .leftAlign{
+  vertical-align: text-top;
+    padding-left: 15px !important;
+}
+            #rcorners2{
+            padding: 20px; 
+            width: 200px;
+            height: 150px; 
+            }
+            #submit{
+            background: yellow;
+            }
+            .titleCenter{
+            text-align: center
+            }
+            .title3{
+    padding:100px;
+}
+            h3{
+    font-size: 20px;
+}
+/* position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              margin:auto; */

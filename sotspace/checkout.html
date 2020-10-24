@@ -1,0 +1,80 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="sotspace.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    </head>
+    <body>
+        <title>Checkout</title>
+       <div  class="links" id="myLinks"> <!-- change links afterwards -->
+          <table><tr>
+            <th><a href="index.html"><img src="sotspacelogo.JPG" alt="SotSpaceLogo"></a></th>
+              <th><p><button id="specialButton"><a href="ourOffers.html"><img border="0">|Our Offers|</a></button></p></th>  
+            <th><p><button id="specialButton"><a  href="ourPolicy.html"><img border="0">|Our Policy|</a></button></p></th>  
+            <th><p><button id="specialButton"><a href="aboutUs.html"><img border="0">|About Us|</a></button></p></th>  
+            <th><p><button id="selectedButton"><a href="checkout.html"><img border="0">|Checkout|</a></button></p></th> 
+              <th><p><button id="specialButton"><a href="charity.html"><img border="0">|Charity|</a></button></p></th>
+             <th><a href="https://www.facebook.com/"><img src="facebook.png" width="50" height="50"></a><a href="https://www.instagram.com/?hl=en"><img src="instagram.png" width="50" height="50"></a>
+              <a href="https://twitter.com/?lang=en"><img src="twitter.png" width="61.5" height="50"></a></th>
+              
+          </tr></table>
+            </div>
+        <table class ="header"> <!-- green table start --> 
+        <tr>
+            <td>
+                <table>
+                    <tr><td colspan="2"><h1>Checkout</h1></td></tr>
+                    <tr><td><table>
+                        <tr><form action="submition">
+                             <label for="fname">E-mail adress:</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br>
+                            <label for="fname">What Activity would you like to Purchase?</label><br>
+                            <label></label>
+                            <select name="" id="trips">
+    <option value="">Zero Gravity</option>
+    <option value="">Twenty Day stay at the ISS</option>
+    <option value="">Luxury Flight in Space</option>
+    <option value="">First Ever moon Tourism</option>
+  </select><br>                 
+                            <label for="fname">What is your name e.g(First name Last name)</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br>
+                            <label for="fname">What is you paypal/credit card number?</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br>
+                            <input type="submit" value="Submit">
+                            <img src="rocket.png" width="30px" height="30px">
+                            </form><p class="smallFont">Please read user agreement before you click.</p></tr>
+                        <tr height="150px"><td></td></tr>
+                        <tr  class="titleCenter"><td><h2>User Agreement</h2><p>SoTSpace User Agreement: All clients must read through and agree to the current User Agreement, prior to making a purchase. This declaration is an additional document that outlines the standards of usage for the SotSpace online website. Once agreed to, it will act as an agreement between SoTSpace.inc and the client. This declaration must be reviewed and agreed to by the client prior to any purchases on this website:
+ <a href="ourPolicy.html">User agreement</a>
+</p></td></tr>
+                        <tr height="175px"><td></td></tr>
+                    </table></td>
+                    </tr> 
+                </table>
+            </td>
+            </tr>           
+        </table> <!-- green table end -->
+                <div  class="links"> <!-- change links afterwards -->
+        <div  class="links"> <!-- change links afterwards -->
+            <table><tr> 
+                <th><p><button id="specialButton"><a  href="ourPolicy.html"><img border="0">|Our Policy|</a></button></p></th>  
+                <th><p><button id="specialButton"><a href="aboutUs.html"><img border="0">|About Us|</a></button></p></th>  
+                <th><p><button id="selectedButton"><a href="checkout.html"><img border="0">|Checkout|</a></button></p></th> 
+            <th><p><button id="specialButton"><a href="charity.html"><img border="0">|Charity|</a></button></p></th>
+            </tr></table>
+            </div>
+    <script>
+window.onscroll = function() {myFunction()};
+
+var links = document.getElementById("myLinks");
+var sticky = links.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    links.classList.add("sticky");
+  } else {
+    links.classList.remove("sticky");
+  }
+}
+</script>
+    </body>
+</html>
